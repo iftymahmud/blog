@@ -1,0 +1,21 @@
+<%- include("header.ejs") %>
+
+<div class="posts container m-5">
+
+    <form action="/admin/compose" method="POST">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Post Title</label>
+            <input type="text" name="postTitle" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Post Text</label>
+            <textarea type="text" name="postText" class="form-control" id="exampleInputPassword1" rows="8"> </textarea>
+        </div>
+        <button type="submit" name="publish" class="btn btn-dark">Publish</button>
+    </form>
+
+
+
+
+
+</div>

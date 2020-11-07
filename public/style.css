@@ -1,0 +1,53 @@
+
+
+
+body{
+    background-color: #eeeeee;
+    color: #1f1f1f;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+a{
+    color: #1f1f1f;
+}
+
+.bg-dark{
+    background-color: #1f1f1f !important;
+    
+}
+
+.navbar-brand{
+    color: #eeeeee !important;
+}
+
+.jumbotron{
+    background-color: #eeeeee;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.starting-text{
+    color: #1f1f1f;
+    margin-top: 1rem;
+}
+
+.list-unstyled{
+    background-color: #e4e3e3;
+    /* color: #eeeeee; */
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.pics{
+    width: 12rem;
+    height: 9rem;
+    border-radius: 0.5 rem;
+    margin-right: 1rem;
+}
+
+.bottom-card{
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+}
