@@ -1,2 +1,2 @@
 # blog
-A simple Blog
+A simple Blog using Express and MongoDB
