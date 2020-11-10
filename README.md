@@ -1,2 +1,2 @@
-# rasp
-Rasp Blog
+# blog
+A simple Blog
