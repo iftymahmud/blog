@@ -7,6 +7,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const mongoose = require('mongoose');
+// DB deleted, so i have left teh id pass here!
 mongoose.connect('mongodb+srv://admin:admin18101189@cluster0.fhzsl.mongodb.net/raspDB?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const postSchema = new mongoose.Schema({
